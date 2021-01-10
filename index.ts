@@ -3,10 +3,10 @@ screenLog.init(); // affiche le log de la console
 
 import { Observable, interval } from 'rxjs';
 import { switchMap, map } from 'rxjs/operators';
-const source = Observable.create( observer => {
-  observer.next(0);
+const source = new Observable( subscriber => {
+  subscriber.next(0);
   setTimeout(() => {
-    observer.next(1);
+    subscriber.next(1);
   }, 2000);
 });
 
