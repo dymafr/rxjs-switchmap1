@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "rxjs": "^6.6.3"
+    "rxjs": "^6.6.3",
+    "screenlog": "^0.3.0"
   }
 }
